@@ -1,0 +1,19 @@
+@keyframes change {
+  0% {
+    background-color: hotpink;
+  }
+  100% {
+    background-color: gray;
+  }
+}
+#app4 .circle {
+  border: 1px solid gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+}
+#app4 .circle.active {
+  animation: change 1s infinite alternate linear;
+}
